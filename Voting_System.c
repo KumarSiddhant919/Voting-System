@@ -115,7 +115,7 @@ int *z;
      while(temp!=NULL)
      {
          if((strcmp(temp->aadhar,"370")==0&& strcmp(temp->name,"Nitish Kumar")==0 &&strcmp(temp->birth_date,"03-02-1997")==0) ||
-         (strcmp(temp->aadhar,"371")==0&& strcmp(temp->name,"SIdhhant Singh")==0 &&strcmp(temp->birth_date,"12-08-1999")==0)||
+         (strcmp(temp->aadhar,"371")==0&& strcmp(temp->name,"Sidhhant Singh")==0 &&strcmp(temp->birth_date,"12-08-1999")==0)||
          (strcmp(temp->aadhar,"372")==0&& strcmp(temp->name,"Monty Chouhan")==0 &&strcmp(temp->birth_date,"12-10-1995")==0)||
          (strcmp(temp->aadhar,"373")==0&& strcmp(temp->name,"Suman Yadav")==0 &&strcmp(temp->birth_date,"09-1-1999")==0)||
          (strcmp(temp->aadhar,"374")==0&& strcmp(temp->name,"Ankit Shikari")==0 &&strcmp(temp->birth_date,"28-08-1999")==0)||
@@ -123,7 +123,7 @@ int *z;
          (strcmp(temp->aadhar,"376")==0&& strcmp(temp->name,"Manish Kumar")==0 &&strcmp(temp->birth_date,"02-03-1999")==0)||
          (strcmp(temp->aadhar,"377")==0&& strcmp(temp->name,"Abhishek")==0 &&strcmp(temp->birth_date,"26-12-2001")==0)||
          (strcmp(temp->aadhar,"378")==0&& strcmp(temp->name,"Priyatam")==0 &&strcmp(temp->birth_date,"12-11-1998")==0)||
-         (strcmp(temp->aadhar,"379")==0&& strcmp(temp->name,"Subham Kumar")==0 &&strcmp(temp->birth_date,"13-11-1999")==0))
+         (strcmp(temp->aadhar,"379")==0&& strcmp(temp->name,"Aman Kian")==0 &&strcmp(temp->birth_date,"29-10-1999")==0))
 
          {
          	R=3;
@@ -176,7 +176,7 @@ void voting()
     Sleep(300);
     printf("\t\t\t 4.PINTU YADAV                 4.WHEEL\n");
     Sleep(300);
-    printf("\t\t\t 5.ARVINDA KEJRIWAL            5.BROOMSTICK\n\n\n");
+    printf("\t\t\t 5.ARVIND KEJRIWAL            5.BROOMSTICK\n\n\n");
 
 
 
@@ -217,7 +217,7 @@ void voting()
            if(B==5)
            {
                vote5++;
-                printf("\n\n\t\t\t\tYOU HAVE SUCCESSFULLY GIVEN YOUR VOTE TO KARTIK ARVINDA KEJRIWAL\n");
+                printf("\n\n\t\t\t\tYOU HAVE SUCCESSFULLY GIVEN YOUR VOTE TO ARVINDA KEJRIWAL\n");
                break;
            }
             if(B!=1||B!=2||B!=3||B!=4||B!=5)
